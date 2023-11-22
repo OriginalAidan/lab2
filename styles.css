@@ -1,0 +1,146 @@
+body, h1, h2, p, ul, li, figure, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #777;
+}
+
+#portfolio {
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+#portfolio h2 {
+    color: #333;
+}
+
+#portfolio p {
+    color: #555;
+}
+
+#portfolio figure {
+    margin: 20px 0;
+}
+
+#portfolio figcaption {
+    font-style: italic;
+    color: #777;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#contact {
+    background-color: #eee;
+    padding: 30px;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact p {
+    color: #555;
+}
+
+#contact a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+    position: fixed;
+    bottom: 10;
+    width: 100%;
+}
+.brighten img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    .brighten img:hover {
+    -webkit-filter: brightness(100%);
+    }
+    @media (max-width: 600px) {
+        body {
+            background-color: steelblue;
+        }
+      }
+    
