@@ -16,6 +16,16 @@ header {
     text-align: center;
     
 }
+/* Styling for JS buttons on bottom of footer */
+button {
+    display: inline-block;
+    padding: 13px 30px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+}
 
 nav ul {
     list-style: none;
@@ -111,7 +121,7 @@ caption {
     color: #333;
 }
 
-#contact p {
+#contact p  {
     color: #555;
 }
 
